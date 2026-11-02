@@ -1,7 +1,7 @@
 name: Morning news
 on:
   schedule:
-    - cron: "30 1 * * *"   # 01:30 UTC = 7:00 AM IST
+    - cron: "30 1,7,13 * * *"
   workflow_dispatch:
 
 jobs:
